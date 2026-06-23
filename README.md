@@ -1,4 +1,4 @@
-# Pause Icon Kit 🛠️
+# Pause Icon Kit 🛠
 
 A Geode mod for Geometry Dash that allows you to access the Icon Kit (Garage) directly from the in-game pause menu. Change your icons, ships, waves, or colors mid-level without losing your current progress!
 

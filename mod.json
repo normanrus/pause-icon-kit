@@ -8,9 +8,9 @@
 	},
 	"id": "normanrus.pause-icon-kit",
 	"name": "Pause Icon Kit",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "NormanRus",
-	"description": "Adds a functional Icon Kit button directly to the pause menu",
+	"description": "Adds a garage button to the pause menu and tracks your visits!",
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
 	}

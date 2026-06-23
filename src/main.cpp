@@ -15,6 +15,7 @@ public:
     }
 
     void FLAlert_Clicked(FLAlertLayer* alert, bool btn2) override {
+        // Закрываем сцену гаража
         CCDirector::get()->popScene();
 
         if (auto playLayer = PlayLayer::get()) {
@@ -24,6 +25,12 @@ public:
             }
             if (playLayer->m_player2) {
                 playLayer->m_player2->updatePlayerFrame(gm->activeIconForType(gm->m_playerIconType));
+            }
+
+            // ИСПРАВЛЕННЫЙ ФИКС: Вызываем оригинальный метод onResume, который точно есть в PauseLayer.hpp.
+            // Он закроет меню паузы и вернет управление в игру.
+            if (g_savedPauseLayer) {
+                g_savedPauseLayer->onResume(nullptr);
             }
         }
         

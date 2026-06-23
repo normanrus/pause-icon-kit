@@ -1,2 +1,5 @@
 # 1.0.0
-- Edit this file to change your mod's changelog.
+- Mod published!
+# 1.0.1
+- Fixed Pause Menu Glitch: The level now correctly resumes and closes the pause menu only after you press "LET'S GO!".
+
